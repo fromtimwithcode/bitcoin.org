@@ -16,7 +16,7 @@ tr:
     missiontxt6: "Uluslararasılaştırma ile Bitcoin'in dünya çapındaki erişilebilirliğini geliştirmek."
     missiontxt7: "Bitcoin hakkında tarafsız bilgi kaynağı olmak."
     help: "Bize yardım edin"
-    helptxt: "Herhangi bir problemi yada bitcoin.org'a yardım tekliflerinizi buradan <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate\">GitHub</a> İngilizce bir talep vererek yada sorgu açarak iletebilirsiniz. Bir talepte bulunurken lütfen değişikliklerinizi değerlendirmek ve işinizi ayarlamak için biraz zaman ayırın.  <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#translation\">Transifex</a> üzerinde bir takıma kayıt olarak çevirilere yardım edebilirsiniz. Lütfen kişisel işiniz yada websiteniz için, konferanslar gibi özel durumlar hariç, promosyon sormayınız. Bitcoin.org'u geliştirmek için zaman harcayan tüm katkıda bulunanlara teşekkürler!"
+    helptxt: "Herhangi bir problemi yada bitcoin.org'a yardım tekliflerinizi buradan <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate\">GitHub</a> İngilizce bir talep vererek yada sorgu açarak iletebilirsiniz. Bir talepte bulunurken lütfen değişikliklerinizi değerlendirmek ve işinizi ayarlamak için biraz zaman ayırın.  <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/assisting-with-translations.md\">Transifex</a> üzerinde bir takıma kayıt olarak çevirilere yardım edebilirsiniz. Lütfen kişisel işiniz yada websiteniz için, konferanslar gibi özel durumlar hariç, promosyon sormayınız. Bitcoin.org'u geliştirmek için zaman harcayan tüm katkıda bulunanlara teşekkürler!"
     maintenance: "Bakım"
     documentation: "Belgeleme"
     translation: "Çeviri"
@@ -87,8 +87,8 @@ tr:
     chanmarket: "(Marketlerden canlı alıntı)"
     chanmining: "(Bitcoin madenciliğiyle ilgili)"
     social: "Sosyal ağlar"
-    linktwitter: "Twitter Araması"
-    facebook: "<a href=\"https://www.facebook.com/bitcoins\">Facebook Sayfası</a>"
+    linktwitter: "Twitter"
+    facebook: '<a href="https://www.facebook.com/hashtag/bitcoin">Facebook</a>'
     meetups: "Toplantılar"
     meetupevents: "Bitcoin Konferans ve Etkinlikleri"
     meetupgroup: "Bitcoin Toplanma Grupları"
@@ -107,7 +107,6 @@ tr:
     walletbitcoincore: "Bitcoin Core tam bir Bitcoin istemcidir ve ağ'ın bel kemiğini oluşturmaktadır. Yüksek seviyede güvenlik, gizlilik ve stabilite sunar. Ancak az sayıda özelliğe sahiptir ve yüksek miktarda boş alan ve hafıza kullanıyor."
     walletarmory: "Armory, Bitcoin kullanıcıları için özellikleri arttırılmış, gelişmiş bir Bitcoin istemcisidir. Bir çok yedekleme ve şifreleme özelliği içerir ve çevrimdışı bilgisayarlarda yedeklemeyi güvenli kılar."
     walletelectrum: "Electrum, daha az kaynak kullanarak, hız ve basitliğe önem verir. Bitcoin sisteminin en karışık kısımlarını halleden uzak bilgisayarları kullanır ve cüzdanınızı gizli bir şifreyle kurtarmanızı sağlar."
-    walletmsigna: "mSIGNA gelişmiş fakat kullanımı kolay, hızlı ve sade yapıda bir cüzdandır  ayrıca güçlü güvenliği sayesinde firmalar için uygundur. BIP32 desteği, çoklu-imza işlemleri, offline depolama, çoklu cihaz senkronizasyonu, şifreli elektronik ve kağıt yedekleme desteği bulunmaktadır."
     walletbitcoinwallet: "Bitcoin Cüzdanın kullnımı kolay ve güvenilirdir, güvenli olmasıyla birlikte hızlıdır. Vizyonu ademi-merkeziyetçilik ve sıfır güvendir, Bitcoin ile alakalı işlemlerde bir merkez hizmet gerekmez. Uygulama teknik bilgisi olmayan kişiler için iyi bir seçimdir."
     walletbrd: "Sadelik BRD'in çekirdek tasarım özelliğidir. Gerçek bağımsız bir Bitcoin istemcisidir, hacklenecek yada bakıma girecek bir sunucu bulunmaz ve iOS'un güçlü güvenlik üssüne kurularak BRD casus yazılım, tarayıcı güvenlik açıkları ve hatta fiziksel hırsızlığa karşı koruma sağlar."
     walletmyceliumwallet: "Mycelium Bitcoin cüzdanı Android için açık kaynak geliştirilmiş, güvenliğe, hıza ve kolay kullanıma göre tasarlanmıştır. Özel anahtarlarınızı ve bitcoinlerinizin güvenliğine yardım eden soğuk deponuzu kontrol etme konusunda kendine has özelliklere sahiptir."
@@ -196,7 +195,7 @@ tr:
     pagetitle: "Bitcoin gelişimi"
     summary: "Şu anki açıklama, yazılım ve geliştiriciler hakkında daha fazla bilgi edinin."
     spec: "Belgeleme"
-    spectxt: "Bitcoin'in teknik detaylarını veya var olan araç ve APIleri nasıl kullanacağınızı öğrenmek istiyorsanız <a href=\"/en/developer-documentation\">geliştirici belgelemesini</a> okuyarak başlamanızı öneririz."
+    spectxt: "Bitcoin'in teknik detaylarını veya var olan araç ve APIleri nasıl kullanacağınızı öğrenmek istiyorsanız <a href=\"https://developer.bitcoin.org/\">geliştirici belgelemesini</a> okuyarak başlamanızı öneririz."
     coredev: "Çekirdek geliştiriciler"
     inventor: "Bitcoin sistemi aslen Satoshi Nakamoto tarafından tasarlanmıştır. Kendisinin asıl Bitcoin kod havuzu artık Bitcoin Core olarak geliştiriciler ve bir gönüllü topluluğu tarafından idare ediliyor."
     disclosure: "Sorumlu ifşa"
@@ -415,7 +414,7 @@ tr:
     processing: "İşleme<span class=\"titlelight\"> - madencilik</span>"
     processingtxt: "Madencilik bekleyen işlemleri blok zincirine katarak <a href=\"#vocabulary##[vocabulary.confirmation]\"><i>onaylayan</i></a>  <b>dağıtımlı fikirbirliği sistemi</b>dir. Blok zincirinde kronolojik sıra sağlar, ağın tarafsızlığını korur, ve farklı bilgisayarların sistemin durumunda uzlaşmasını sağlar. Onaylanmaları için işlemler ağ tarafından belirlenen çok sıkı kurallara uyan bir <a href=\"#vocabulary##[vocabulary.block]\"><i>bloğa</i></a> konurlar. Bu kurallar önceki blokların değiştirilmesini önler çünkü değiştirilirlerse bütün sonraki bloklar geçersiz kılınır. Madencilik ayrıca kimsenin kolayca ard arda yeni blokları blok zincirine eklemesini önleyerek rekabetli bir piyangonun eşdeğerini de yaratır. Bu şekilde kimse blok zincirine neyin dahil olup olmadığını  kontrol edemez ve blok zincirinin kısımlarını değiştirip harcadıkları paralarını geri alamaz."
     readmore: "Daha derine dalmak"
-    readmoretxt: "Bu yalnızca sistemin kısa bir özetidir. Eğer detaylarına inmek isterseniz sistemin tasarımını tarif eden <a href=\"#bitcoin-paper#\">özgün makaleyi okuyabilirsiniz</a>, <a href=\"/en/developer-documentation\">geliştirici belgelemesini</a> okuyabilirsiniz, veya <a href=\"https://en.bitcoin.it/wiki/Main_Page\">Bitcoin wiki</a> sayfasını inceleyebilirsiniz."
+    readmoretxt: "Bu yalnızca sistemin kısa bir özetidir. Eğer detaylarına inmek isterseniz sistemin tasarımını tarif eden <a href=\"#bitcoin-paper#\">özgün makaleyi okuyabilirsiniz</a>, <a href=\"https://developer.bitcoin.org/\">geliştirici belgelemesini</a> okuyabilirsiniz, veya <a href=\"https://en.bitcoin.it/wiki/Main_Page\">Bitcoin wiki</a> sayfasını inceleyebilirsiniz."
   index:
     title: "Bitcoin - Açık kaynak P2P dijital para"
     metadescription: "Bitcoin yenilikçi bir ödeme ağı ve yeni bir tür para çeşididir. Bilmeniz gereken herşeyi bitcoin.org'da öğrenerek şimdi kullanmaya başlayın."
@@ -669,7 +668,7 @@ tr:
     menu-participate: Katılın
     menu-vocabulary: Sözlük
     menu-you-need-to-know: "Bilmeniz gerekenler"
-    banner-translate: "Bu dil için çeviriler güncel değildir.  <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#translation\">bitcoin.org'un dilinize çevrilmesine yardım etmek için buraya tıklayın</a>."
+    banner-translate: "Bu dil için çeviriler güncel değildir.  <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/assisting-with-translations.md\">bitcoin.org'un dilinize çevrilmesine yardım etmek için buraya tıklayın</a>."
     footer: "<a href=\"http://opensource.org/licenses/mit-license.php\" target=\"_blank\">MIT lisansı</a> altında yayınlanmaktadır"
     sponsor: "Sponsor bir topluluğun web sitesi"
     getstarted: "Bitcoin'e başlarken"
@@ -678,10 +677,12 @@ tr:
     bitcoin-for-developers: gelistiriciler-icin-bitcoin
     bitcoin-for-individuals: bireyler-icin-bitcoin
     bitcoin-for-businesses: isletmeler-icin-bitcoin
+    buy: satin
     choose-your-wallet: cuzdaninizi-secin
     community: topluluk
     development: gelistirme
     download: indir
+    exchanges: borsalari
     events: etkinlikler
     faq: sss
     getting-started: baslarken
@@ -696,6 +697,7 @@ tr:
     support-bitcoin: bitcoini-destekleyin
     vocabulary: kelime-haznesi
     you-need-to-know: bilmeniz-gerekenler
+    spend-bitcoin: bitcoin-para-harcamak
   anchor:
     community:
       non-profit: kar-etmeyen

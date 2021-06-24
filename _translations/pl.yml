@@ -16,7 +16,7 @@ pl:
     missiontxt6: "Poprawa światowej dostępności Bitcoin poprzez umiędzynarodowienie."
     missiontxt7: "Pozostanie neutralnym źródłem informacji o Bitcoin."
     help: "Wesprzyj nas"
-    helptxt: "Możesz zgłosić kazdy problem lub pomóc ulepszyć bitcoin.org na <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate\">GitHubie</a> poprzez zgłoszenie problemu lub przygotowanie prośby o dodanie kodu - pull request - w języku angielskim. Prosimy, abyś, zgłaszając taką prośbę, poświęcił trochę czasu na dyskusję nad zmianami wprowadzanymi w Twoim kodzie. Możesz pomóc z tłumaczeniami, dołączając do zespołu tłumaczy na stronie <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#translation\">Transifex</a>. Prosimy, by nie pytać o promocję własnych stron lub działalności, za wyjątkiem szczególnych przypadków, takich jak organizowanie konferencji. Serdeczne podziękowania dla wszystkich, którzy poświęcają swój czas, aby rozwijać bitcoin.org!"
+    helptxt: "Możesz zgłosić kazdy problem lub pomóc ulepszyć bitcoin.org na <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#how-to-participate\">GitHubie</a> poprzez zgłoszenie problemu lub przygotowanie prośby o dodanie kodu - pull request - w języku angielskim. Prosimy, abyś, zgłaszając taką prośbę, poświęcił trochę czasu na dyskusję nad zmianami wprowadzanymi w Twoim kodzie. Możesz pomóc z tłumaczeniami, dołączając do zespołu tłumaczy na stronie <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/assisting-with-translations.md\">Transifex</a>. Prosimy, by nie pytać o promocję własnych stron lub działalności, za wyjątkiem szczególnych przypadków, takich jak organizowanie konferencji. Serdeczne podziękowania dla wszystkich, którzy poświęcają swój czas, aby rozwijać bitcoin.org!"
     maintenance: "Utrzymanie"
     documentation: "Dokumentacja"
     translation: "Tłumaczenie"
@@ -87,8 +87,8 @@ pl:
     chanmarket: "(Cytaty z rynku na żywo)"
     chanmining: "(O wydobywaniu bitcoinów)"
     social: "Sieci społecznościowe"
-    linktwitter: "Wyszukaj na Twitterze"
-    facebook: "<a href=\"https://www.facebook.com/bitcoins\">Strona na Facebook</a>"
+    linktwitter: "Twitter"
+    facebook: '<a href="https://www.facebook.com/hashtag/bitcoin">Facebook</a>'
     meetups: "Spotkania"
     meetupevents: "Konferencje i wydarzenia Bitcoin"
     meetupgroup: "Grupy spotkań Bitcoin"
@@ -107,7 +107,6 @@ pl:
     walletbitcoincore: "Bitcoin Core to kompletny klient Bitcoin, który stanowi kręgosłup sieci. Oferuje on wysoki poziom bezpieczeństwa, prywatności oraz stabilności. Jednakże posiada mniejszą ilość funkcji oraz zajmuje o wiele więcej miejsca i pamięci."
     walletarmory: "Armory jest zaawansowanym klientem Bitcoin, który daje szersze możliwości zaawansowanym użytkownikom. Oferuje wiele funkcji kopii zapasowych i szyfrowania oraz umożliwia bezpieczne przechowywanie \"cold-storage\", na komputerach niepodłączonych do sieci."
     walletelectrum: "Electrum koncentruje się na szybkości oraz prostocie przy niewielkim użyciu zasobów. Wykorzystuje on zdalne serwery, które wykonują najbardziej skomplikowane zadania systemu Bitcoin, oraz pozwala Ci na odtworzenie twojego portfela przy użyciu hasła."
-    walletmsigna: "mSIGNA to zaawansowany i prosty w obsłudze portfel oferujący szybkość i prostotę, skalowalność na poziomie przedsiębiorstwa oraz silne zabezpieczenia. Obsługuje on BIP32, transakcje z multipodpisem, przechowywanie offline, synchronizację pomiędzy wieloma urządzeniami oraz szyfrowane kopie zapasowe, zarówno elektroniczne, jak i papierowe."
     walletbitcoinwallet: "Portfel Bitcoin jest łatwy w obsłudze oraz niezawodny, jak również bezpieczny i szybki. Wizją jego twórców były decentralizacja oraz brak zaufania; żadne centralne biuro nie jest potrzebne do operacji związanych z Bitcoin. Aplikacja jest dobrym wyborem dla ludzi, którzy nie są zaawansowanymi użytkownikami komputerów. "
     walletbrd: "Prostota jest podstawową zasadą designu BRD. Jako prawdziwie samodzielny klient Bitcoin, nie posiada on żadnego serwera narażonego na ataki czy awarie, zaś oparcie na potężnej podstawie zabezpieczeń iOS świadczy o tym, że BRD został zaprojektowany, aby chronić Cię przed malware, lukami bezpieczeństwa przeglądarek, a nawet przed fizyczną kradzieżą."
     walletmyceliumwallet: "Mycelium jest portfelem Bitcoin o otwartym źródle na Androida. Został zaprojektowany z myślą o bezpieczeństwie, szybkości i łatwości użytkowania. Oferuje niezwykłe możliwości zarządzania Twoimi kluczami i przechowywania offline, aby pomóc Ci zabezpieczyć Twoje bitcoiny."
@@ -196,7 +195,7 @@ pl:
     pagetitle: "Rozwój Bitcoin"
     summary: "Znajdź więcej informacji o aktualnej specyfikacji, oprogramowaniu i programistach."
     spec: "Dokumentacja"
-    spectxt: "Jeśli chciałbyś dowiedzieć się więcej o technicznych szczegółach Bitcoin i o tym, jak używać istniejących narzędzi oraz API, zalecamy, byś zaczął od zapoznania się z <a href=\"/en/developer-documentation\">dokumentacją deweloperską</a>."
+    spectxt: "Jeśli chciałbyś dowiedzieć się więcej o technicznych szczegółach Bitcoin i o tym, jak używać istniejących narzędzi oraz API, zalecamy, byś zaczął od zapoznania się z <a href=\"https://developer.bitcoin.org/\">dokumentacją deweloperską</a>."
     coredev: "Główni programiści"
     inventor: "System Bitcoin był oryginalnie zaprojektowany przez Satoshi Nakamoto. Jego oryginalny kod źródłowy jest obecnie utrzymywany jako Bitcoin Core przez następujących deweloperów oraz społeczność wolontariuszy."
     disclosure: "Odpowiedzialne ujawnianie informacji"
@@ -417,7 +416,7 @@ pl:
     processing: "Przetwarzanie<span class=\"titlelight\"> - wydobywanie</span>"
     processingtxt: "Wydobycie jest <b>rozproszonym systemem konsensu</b>, używanym do <a href=\"#vocabulary##[vocabulary.confirmation]\"><i>potwierdzania</i></a> oczekujących transakcji poprzez włączanie ich do łańcucha bloków. Proces ten zapewnia chronologiczność zdarzeń w łańcuchu, chroni neutralności sieci oraz pozwala różnym komputerom na wzajemnie uzgadnianie stanu systemu. Aby zostały potwierdzone, transakcje muszą być ułożone w <a href=\"#vocabulary##[vocabulary.block]\"><i>blok</i></a> spełniający bardzo ścisłe zasady kryptografii, które zostaną zweryfikowane przez sieć. Zasady te zapobiegają modyfikacji poprzednio zapisanych bloków, gdyż wiązałoby się to z unieważnieniem wszystkich kolejnych bloków. Wydobywanie (kopanie) tworzy również odpowiednik opartej na rywalizacji loterii, która zapobiega prostemu dodawaniu nowych bloków kolejno w łańcuchu bloków przez dowolną jedną osobę. Dzięki temu żadna osoba nie może kontrolować tego, co zostaje zapisane w łańcuchu bloków, ani też zastępować części łańcucha bloków, by cofnąć własne wydatki."
     readmore: "W głąb króliczej nory"
-    readmoretxt: "Prezentujemy tu jedynie krótkie i zwięzłe podsumowanie systemu. Jeśli chcesz poznać detale, możesz <a href=\"#bitcoin-paper#\">przeczytać oryginalną pracę</a> opisującą projekt systemu, przeczytać <a href=\"/en/developer-documentation\">dokumentację dla programistów</a> oraz zagłebić się w lekturę <a href=\"https://en.bitcoin.it/wiki/Main_Page\">Bitcoin wiki</a>."
+    readmoretxt: "Prezentujemy tu jedynie krótkie i zwięzłe podsumowanie systemu. Jeśli chcesz poznać detale, możesz <a href=\"#bitcoin-paper#\">przeczytać oryginalną pracę</a> opisującą projekt systemu, przeczytać <a href=\"https://developer.bitcoin.org/\">dokumentację dla programistów</a> oraz zagłebić się w lekturę <a href=\"https://en.bitcoin.it/wiki/Main_Page\">Bitcoin wiki</a>."
   index:
     title: "Bitcoin - Otwarta waluta P2P"
     metadescription: "Bitcoin to innowacyjna sieć płatności i nowy rodzaj pieniądza. Znajdź wszystko, co powinieneś wiedzieć i zacznij korzystać z Bitcoin na bitcoin.org."
@@ -672,7 +671,7 @@ pl:
     menu-participate: Weź udział
     menu-vocabulary: Słownik
     menu-you-need-to-know: "Musisz to wiedzieć"
-    banner-translate: "Tłumaczenia dla tego języka są przestarzałe. <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org#translation\">Kliknij tutaj, aby pomóc w tłumaczeniu bitcoin.org na Twój język</a>."
+    banner-translate: "Tłumaczenia dla tego języka są przestarzałe. <a href=\"https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/assisting-with-translations.md\">Kliknij tutaj, aby pomóc w tłumaczeniu bitcoin.org na Twój język</a>."
     footer: "Dostępny w ramach <a href=\"http://opensource.org/licenses/mit-license.php\" target=\"_blank\">licencji MIT</a>"
     sponsor: "Strona społecznościowa sponsorowana przez"
     getstarted: "Pierwsze kroki z Bitcoin"
@@ -681,10 +680,12 @@ pl:
     bitcoin-for-developers: bitcoin-dla-deweloperow
     bitcoin-for-individuals: bitcoin-dla-osob-fizycznych
     bitcoin-for-businesses: bitcoin-dla-biznesu
+    buy: kup
     choose-your-wallet: wybierz-swoj-portfel
     community: spolecznosc
     development: rozwoj
     download: pobieranie
+    exchanges: wymiany
     events: wydarzenia
     faq: faq
     getting-started: pierwsze-kroki
@@ -699,6 +700,7 @@ pl:
     support-bitcoin: wesprzyj-bitcoin
     vocabulary: slownik
     you-need-to-know: co-potrzebujesz-wiedziec
+    spend-bitcoin: zuzyc-bitcoin
   anchor:
     community:
       non-profit: non-profit
